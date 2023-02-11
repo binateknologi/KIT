@@ -1,0 +1,32 @@
+.autocomplete-suggestions {
+  border: 1px solid #999;
+  background: #fff;
+  overflow: auto;
+}
+
+.autocomplete-suggestion {
+  padding: 2px 5px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.autocomplete-selected {
+  background: #f0f0f0;
+  cursor: pointer;
+}
+
+.autocomplete-suggestions strong {
+  font-weight: normal;
+  background-color: #303f9f25;
+  color: #0000ff;
+  cursor: pointer;
+}
+
+.autocomplete-group {
+  padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+  display: block;
+  border-bottom: 1px solid #000;
+}
